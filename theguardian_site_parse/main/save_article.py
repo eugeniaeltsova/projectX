@@ -8,6 +8,7 @@ for url in SET_URLS:
     try:
         html = get_html(url)
         list_article = get_article(html)
+        list_article.append(url)
         save_in_file(*list_article)
     except Exception as err:
         count += 1
