@@ -4,3 +4,4 @@ env/
 *.docx#
 tmp.*
 .idea/
+__pycache__/

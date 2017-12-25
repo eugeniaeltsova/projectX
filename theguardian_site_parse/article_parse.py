@@ -34,7 +34,7 @@ def save_in_file(title, text):
     index = len(os.listdir('articles'))
     # for linux dir was other. You need change symbol //
     name_file = '{}\\article_{}.txt'.format(DIR_ARTICLE, index)
-    json_to_file = json.dumps({title: text})
+    json_to_file = json.dumps({'title': title, 'text': text})
     with open(name_file, 'w', encoding='utf-8') as f:
         f.write(json_to_file)
 
