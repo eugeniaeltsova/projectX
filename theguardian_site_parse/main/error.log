@@ -1,35 +1,51 @@
-Error number 1: for next url https://www.theguardian.com/news/video/2014/apr/30/bitcoin-made-simple-video-animation
+Error number 1: for next url https://www.theguardian.com/technology/video/2013/apr/26/bitcoin-currency-moves-offline-berlin-video
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 2: for next url https://www.theguardian.com/technology/audio/2015/jun/25/bitcoin-future-tech-podcast
+ 'NoneType' object has no attribute 'text'
+Error number 2: for next url https://www.theguardian.com/technology/video/2013/mar/22/bitcoin-currency-video
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 3: for next url https://www.theguardian.com/culture/cartoon/2014/mar/22/josie-long-another-planet-bitcoin
+ 'NoneType' object has no attribute 'text'
+Error number 3: for next url https://www.theguardian.com/technology/audio/2014/may/14/bitcoin-bubble-tech-weekly-podcast
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 4: for next url https://www.theguardian.com/business/gallery/2013/dec/11/kipper-williams-guardian-cartoonist-christmas-cards-2013
+ 'NoneType' object has no attribute 'text'
+Error number 4: for next url https://www.theguardian.com/business/live/2017/nov/30/opec-meeting-oil-cuts-bitcoin-volatile-sterling-brexit-business-live
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 5: for next url https://www.theguardian.com/business/live/2017/dec/11/bitcoin-price-futures-trading-begins-cryptocurrency-business-live
+ 'NoneType' object has no attribute 'text'
+Error number 5: for next url https://www.theguardian.com/technology/audio/2013/nov/27/podcast-tech-weekly-eli-horowitz
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 6: for next url https://www.theguardian.com/business/live/2017/dec/07/pound-sterling-ftse-brexit-bitcoin-economics-business-live
+ 'NoneType' object has no attribute 'text'
+Error number 6: for next url https://www.theguardian.com/business/live/2017/dec/18/bitcoin-bubble-ubs-futures-trading-20000-cme-stock-markets-tax-business-live
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 7: for next url https://www.theguardian.com/business/live/2017/dec/18/bitcoin-bubble-ubs-futures-trading-20000-cme-stock-markets-tax-business-live
+ 'NoneType' object has no attribute 'text'
+Error number 7: for next url https://www.theguardian.com/business/live/2017/dec/06/markets-geopolitical-worries-ftse-wall-street-debt-ceiling-bitcoin-surges-business-live
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 8: for next url https://www.theguardian.com/technology/audio/2013/nov/27/podcast-tech-weekly-eli-horowitz
+ 'NoneType' object has no attribute 'text'
+Error number 8: for next url https://www.theguardian.com/technology/video/2015/dec/09/police-search-sydney-home-of-craig-wright-reported-bitcoin-founder-video
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 9: for next url https://www.theguardian.com/technology/audio/2012/dec/11/audio-tech-weekly-podcast-bitcoin-shutterstock
+ 'NoneType' object has no attribute 'text'
+Error number 9: for next url https://www.theguardian.com/technology/audio/2012/dec/11/audio-tech-weekly-podcast-bitcoin-shutterstock
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 10: for next url https://www.theguardian.com/technology/video/2013/mar/22/bitcoin-currency-video
+ 'NoneType' object has no attribute 'text'
+Error number 10: for next url https://www.theguardian.com/culture/cartoon/2014/mar/22/josie-long-another-planet-bitcoin
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 11: for next url https://www.theguardian.com/technology/video/2015/dec/09/police-search-sydney-home-of-craig-wright-reported-bitcoin-founder-video
+ 'NoneType' object has no attribute 'text'
+Error number 11: for next url https://www.theguardian.com/business/live/2017/dec/07/pound-sterling-ftse-brexit-bitcoin-economics-business-live
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 12: for next url https://www.theguardian.com/technology/audio/2014/may/14/bitcoin-bubble-tech-weekly-podcast
+ 'NoneType' object has no attribute 'text'
+Error number 12: for next url https://www.theguardian.com/business/live/2017/dec/11/bitcoin-price-futures-trading-begins-cryptocurrency-business-live
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 13: for next url https://www.theguardian.com/business/live/2017/dec/22/spanish-stock-market-catalan-election-uk-gdp-bitcoin-business-live
+ 'NoneType' object has no attribute 'text'
+Error number 13: for next url https://www.theguardian.com/news/video/2014/apr/30/bitcoin-made-simple-video-animation
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 14: for next url https://www.theguardian.com/business/live/2017/nov/30/opec-meeting-oil-cuts-bitcoin-volatile-sterling-brexit-business-live
+ 'NoneType' object has no attribute 'text'
+Error number 14: for next url https://www.theguardian.com/business/live/2017/nov/27/chinese-stocks-fall-bitcoin-record-uk-industrial-strategy
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 15: for next url https://www.theguardian.com/business/live/2017/nov/27/chinese-stocks-fall-bitcoin-record-uk-industrial-strategy
+ 'NoneType' object has no attribute 'text'
+Error number 15: for next url https://www.theguardian.com/business/gallery/2013/dec/11/kipper-williams-guardian-cartoonist-christmas-cards-2013
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 16: for next url https://www.theguardian.com/business/live/2017/dec/06/markets-geopolitical-worries-ftse-wall-street-debt-ceiling-bitcoin-surges-business-live
+ 'NoneType' object has no attribute 'text'
+Error number 16: for next url https://www.theguardian.com/technology/audio/2015/jun/25/bitcoin-future-tech-podcast
  got not article, 
- 'NoneType' object has no attribute 'text'Error number 17: for next url https://www.theguardian.com/technology/video/2013/apr/26/bitcoin-currency-moves-offline-berlin-video
+ 'NoneType' object has no attribute 'text'
+Error number 17: for next url https://www.theguardian.com/business/live/2017/dec/22/spanish-stock-market-catalan-election-uk-gdp-bitcoin-business-live
  got not article, 
  'NoneType' object has no attribute 'text'

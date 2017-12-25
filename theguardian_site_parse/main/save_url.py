@@ -5,6 +5,7 @@ MAIN_URL = 'https://www.theguardian.com/technology/bitcoin'
 LIST_URL = ['{}?page={}'.format(MAIN_URL, x) for x in range(21)]
 
 
+open('urls.txt', 'w').write("")
 for url in LIST_URL:
     page = get_html(url)
     links = get_links_for_page(page)
