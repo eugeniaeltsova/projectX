@@ -1,3 +1,10 @@
+
+# This is script walk in file "urls.txt"
+# and save each article in dir "articles"
+# If for some reason scripts will be crash in error.
+# It's save error and url in file "error.log"
+
+
 from theguardian_site_parse.article_parse import get_html, get_article, save_in_file
 
 URLS = 'urls.txt'
