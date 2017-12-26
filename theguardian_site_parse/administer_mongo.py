@@ -25,10 +25,6 @@ def read_all(obj, collection):
 
 if __name__ == '__main__':
     print("start")
-    # article = json.loads(open('main/articles/article_1.txt', 'r').read())
     obj_db = connect()
     get_all = read_all(obj_db, 'articles')
-    print(type(get_all[0]))
-    print(type(get_all[0]['_id']))
     print(get_all)
-

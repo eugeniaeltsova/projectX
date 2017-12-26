@@ -40,6 +40,7 @@ def save_in_file(title, text, url):
 
 
 if __name__ == '__main__':
+    # For example
     html = get_html(URL_ARTICLE)
     article = get_article(html)
     article += URL_ARTICLE
