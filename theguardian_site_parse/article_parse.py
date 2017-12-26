@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 DIR_ARTICLE = 'articles'
 FILE_ERROR = 'error.log'
 URL_ARTICLE = 'https://www.theguardian.com/business/nils-pratley-on-finance/2017/dec/07/gvc-and-ladbrokes-coral-david-gambles-on-goliath'
+DATE_ARTICLE = {'itemprop': 'datePublished'}
 
 
 def get_html(url):
@@ -29,6 +30,15 @@ def get_article(text):
     return [title, body]
 
 
+def get_date(text):
+    """return date in format datetime for HTML.text"""
+    from datetime import datetime
+    soup = BeautifulSoup(text, "html.parser")
+    time_article = soup.find('time', attrs=DATE_ARTICLE)
+    date_article = time_article['datetime'].split('T')[0]
+    return datetime.strptime(date_article, '%Y-%m-%d')
+
+
 def save_in_file(title, text, url):
     """save in file and numerate over index"""
     index = len(os.listdir('articles'))
@@ -42,6 +52,4 @@ def save_in_file(title, text, url):
 if __name__ == '__main__':
     # For example
     html = get_html(URL_ARTICLE)
-    article = get_article(html)
-    article += URL_ARTICLE
-    save_in_file(*article)
+    print(get_date(html))

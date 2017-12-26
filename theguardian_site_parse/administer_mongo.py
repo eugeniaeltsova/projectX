@@ -3,6 +3,7 @@ from theguardian_site_parse.settings import *
 
 
 def connect():
+    """read settings for connect db and return MongoClient cursor"""
     connect_address = "mongodb://{}:{}@{}:{}/{}".format(USER, PASS, HOST, PORT, DB_NAME)
     client = MongoClient(connect_address)
     db = getattr(client, DB_NAME)
@@ -10,7 +11,14 @@ def connect():
 
 
 def write_one(obj, dict_article):
+    """insert new dict in mongodb"""
     obj.articles.insert_one(dict_article)
+    return True
+
+
+def update_one(obj, original_dict, new_dict):
+    """change structure in mongodb via update and return True"""
+    obj.articles.update(original_dict, new_dict)
     return True
 
 
