@@ -6,7 +6,7 @@
 import json
 import os
 
-from theguardian_site_parse.administer_mongo import connect, write_one
+from storage.mongo import connect, write_one
 
 c_obj = connect()
 list_file = os.listdir('articles')

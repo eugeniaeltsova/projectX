@@ -5,7 +5,7 @@
 # It's save error and url in file "error.log"
 
 
-from theguardian_site_parse.article_parse import get_html, get_article, save_in_file
+from extra.theguardian_site_parse import get_html, get_article, save_in_file
 
 URLS = 'urls.txt'
 SET_URLS = ({link.rstrip() for link in open(URLS, 'r')})

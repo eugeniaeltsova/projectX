@@ -4,8 +4,8 @@
 # When it found, it update and put back on mongodb
 
 
-from theguardian_site_parse.article_parse import get_html, get_date
-from theguardian_site_parse.administer_mongo import connect, update_one, read_all
+from extra.theguardian_site_parse import get_html, get_date
+from storage.mongo import connect, update_one, read_all
 
 
 obj = connect()

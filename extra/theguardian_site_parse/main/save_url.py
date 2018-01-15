@@ -7,8 +7,8 @@
 # ...
 
 
-from theguardian_site_parse.article_parse import get_html
-from theguardian_site_parse.url_parse import get_links_for_page
+from extra.theguardian_site_parse import get_html
+from extra.theguardian_site_parse import get_links_for_page
 
 
 MAIN_URL = 'https://www.theguardian.com/technology/bitcoin'

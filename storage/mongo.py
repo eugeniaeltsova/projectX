@@ -1,5 +1,4 @@
 from pymongo import MongoClient
-from theguardian_site_parse.settings import *
 
 
 def connect():
@@ -32,7 +31,7 @@ def read_all(obj, collection):
 
 
 if __name__ == '__main__':
-    print("start")
-    obj_db = connect()
-    get_all = read_all(obj_db, 'articles')
-    print(get_all)
+    try:
+        from .local_connect import *
+    except ImportError:
+        pass
