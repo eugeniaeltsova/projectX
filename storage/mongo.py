@@ -30,8 +30,7 @@ def read_all(obj, collection):
     return result
 
 
-if __name__ == '__main__':
-    try:
-        from .local_connect import *
-    except ImportError:
-        pass
+try:
+    from storage.local_connect import *
+except ImportError:
+    pass

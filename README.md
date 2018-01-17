@@ -7,7 +7,7 @@ You need install requirements for your Python.
 ```
 pip install -r requeriments.txt
 ```
-Please create python file ``theguardian_site_parse/settings.py`` for connection in mongodb. For example:
+Please create python file ``storage/local_connect.py`` for connection in mongodb. For example:
 ```python
 
 # settings for connect to mongodb
