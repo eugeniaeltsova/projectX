@@ -30,6 +30,10 @@ def read_all(obj, collection):
     return result
 
 
+def remote_one(obj, dict):
+    return obj.articles.remove(dict, justOne=True)
+
+
 try:
     from storage.local_connect import *
 except ImportError:
