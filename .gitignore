@@ -3,3 +3,7 @@ env/
 *.txt
 *.docx#
 tmp.*
+.idea/
+__pycache__/
+settings.py
+local_connect.py
